@@ -1,0 +1,77 @@
+# Base de conocimiento de Llama Académico (UTSLRC)
+# DOCUMENTO SIMULADO PARA HACKATHON: fechas, cuotas y reglas son ficticias.
+# Formato: "## Categoría" agrupa temas; cada "### Título" es un fragmento que el RAG indexa.
+
+## Calendario escolar
+
+### Periodos cuatrimestrales 2026-2027
+El ciclo escolar 2026-2027 se divide en tres cuatrimestres de 15 semanas efectivas de clase. Cuatrimestre septiembre-diciembre 2026: clases del 7 de septiembre al 18 de diciembre de 2026. Cuatrimestre enero-abril 2027: clases del 11 de enero al 30 de abril de 2027, incluido el receso de Semana Santa. Cuatrimestre mayo-agosto 2027: clases del 10 de mayo al 20 de agosto de 2027.
+
+### Reinscripción para el cuatrimestre enero-abril 2027
+La reinscripción en línea se realiza a través del portal del alumno del 7 al 18 de diciembre de 2026. El pago de la cuota de reinscripción (1,850 pesos simulados) debe cubrirse a más tardar el 18 de diciembre de 2026. Para reinscribirse el alumno no debe tener adeudos en biblioteca ni en laboratorios.
+
+### Reinscripción extemporánea
+Quien no se reinscriba en las fechas ordinarias puede hacerlo de forma extemporánea del 11 al 15 de enero de 2027, con un recargo del 10 por ciento sobre la cuota. Pasado el 15 de enero de 2027 el alumno queda con baja temporal y debe tramitar su reingreso en Servicios Escolares.
+
+### Inscripción de nuevo ingreso
+Para el ciclo que inicia en septiembre de 2027, el registro de aspirantes se realiza del 1 de febrero al 28 de mayo de 2027. El examen de admisión se aplica el 12 de junio de 2027 y los resultados se publican el 25 de junio de 2027. La inscripción de los aceptados es del 5 al 16 de julio de 2027.
+
+### Fechas de evaluación del cuatrimestre septiembre-diciembre 2026
+Primera unidad: semana del 5 al 9 de octubre de 2026. Segunda unidad: semana del 9 al 13 de noviembre de 2026. Tercera unidad y cierre de calificaciones: semana del 14 al 18 de diciembre de 2026.
+
+### Días inhábiles y vacaciones
+No hay clases el 2 de noviembre de 2026 (Día de Muertos), el 16 de noviembre de 2026 (Revolución Mexicana), el 1 de febrero de 2027 (Día de la Constitución) ni el 15 de marzo de 2027 (natalicio de Benito Juárez). Vacaciones de invierno: del 21 de diciembre de 2026 al 8 de enero de 2027. Semana Santa: del 22 al 26 de marzo de 2027.
+
+## Reglamento de evaluación
+
+### Escala y calificación mínima aprobatoria
+La escala de calificación va de 0 a 10. La calificación mínima aprobatoria de una materia es 7.0. La calificación final de la materia es el promedio de las tres unidades y se asienta con un decimal.
+
+### Ponderación de la evaluación
+Cada unidad se evalúa con tres componentes: Saber (examen escrito) vale 30 por ciento, Saber hacer (prácticas, proyectos y tareas) vale 50 por ciento y Ser (actitud, puntualidad y participación) vale 20 por ciento.
+
+### Asistencia y retardos
+El alumno necesita un mínimo de 80 por ciento de asistencia en la materia para tener derecho a la evaluación ordinaria. Hay 10 minutos de tolerancia: de 10 a 20 minutos de demora cuenta como retardo y después de 20 minutos cuenta como falta. Tres retardos equivalen a una falta.
+
+### Examen extraordinario
+Quien no acredite una materia en la evaluación ordinaria tiene una oportunidad de examen extraordinario por materia. La solicitud se hace en Servicios Escolares dentro de los 3 días hábiles posteriores al cierre de calificaciones. La calificación máxima que se puede asentar en un extraordinario es 8.0.
+
+### Materias no acreditadas y baja académica
+Una materia no acreditada después del extraordinario se recursa en el siguiente cuatrimestre en que se ofrezca. Si el alumno acumula más de 3 materias no acreditadas en un mismo cuatrimestre, causa baja académica definitiva.
+
+### Revisión de calificaciones
+El alumno puede pedir la revisión de una calificación dentro de los 3 días hábiles posteriores a su publicación. Primero se solicita al docente de la materia. Si no se resuelve, se presenta una solicitud por escrito al Director de carrera dentro de los 3 días hábiles siguientes.
+
+### Integridad académica
+Copiar en un examen o presentar trabajos ajenos como propios implica calificación de 0 en esa evidencia y un reporte al Director de carrera. En caso de reincidencia se aplican las sanciones del reglamento disciplinario.
+
+## Horarios y servicios
+
+### Horario de clases
+Turno matutino: de 7:00 a 14:00 horas. Turno vespertino: de 14:00 a 20:00 horas. Cada hora de clase dura 60 minutos. El receso es de 10:30 a 11:00 en el turno matutino y de 17:00 a 17:30 en el vespertino.
+
+### Servicios Escolares
+Servicios Escolares atiende de lunes a viernes de 8:30 a 16:00 horas, en ventanilla. Gestiona inscripciones, extraordinarios, constancias, credenciales y bajas. Correo de contacto: servicios.escolares@ejemplo.edu.mx
+
+### Biblioteca
+La biblioteca atiende de lunes a viernes de 7:30 a 19:30 horas y los sábados de 9:00 a 13:00 horas. Cada alumno puede llevar hasta 3 libros en préstamo por 7 días y renovarlos una vez si nadie los ha apartado.
+
+### Laboratorios y centro de cómputo
+Los laboratorios y el centro de cómputo funcionan de lunes a viernes de 7:00 a 20:00 horas. El uso fuera de clase requiere reservación con 24 horas de anticipación.
+
+### Credencial y constancias
+La credencial de estudiante se tramita en Servicios Escolares y tarda 5 días hábiles; la reposición cuesta 60 pesos simulados. La constancia de estudios tarda 2 días hábiles y cuesta 40 pesos simulados.
+
+### Baja temporal
+La baja temporal puede solicitarse hasta la semana 4 de cada cuatrimestre con el formato firmado y una constancia de no adeudo. Después de la semana 4 las materias se registran como no acreditadas. La baja temporal puede durar hasta dos cuatrimestres.
+
+## Apoyos y trayectoria
+
+### Becas
+La convocatoria de becas se publica durante las primeras 3 semanas de cada cuatrimestre. La beca académica requiere promedio mínimo de 9.0 en el cuatrimestre anterior y no tener materias en extraordinario.
+
+### Servicio social y estadía profesional
+El servicio social consta de 480 horas y puede iniciarse al cubrir el 50 por ciento de los créditos. La estadía profesional se realiza en el último cuatrimestre de cada nivel (sexto en TSU y undécimo en ingeniería), dura 15 semanas y requiere tener acreditadas todas las materias anteriores.
+
+### Tutorías
+Cada grupo tiene un docente tutor que da seguimiento académico. El alumno con riesgo de reprobación o con asistencia menor al 85 por ciento es canalizado a tutoría individual.
