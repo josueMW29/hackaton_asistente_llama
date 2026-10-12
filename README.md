@@ -1,4 +1,4 @@
-# 🦙 Llama Académico
+# Llama Académico: Asistente para la UTSLRC
 
 Asistente universitario 24/7 para alumnos de la UTSLRC. Resuelve dudas sobre fechas de inscripción, reglas de evaluación y horarios, con el tono de un coordinador formal o de un compañero amigable.
 
@@ -45,14 +45,5 @@ La primera consulta con RAG descarga el modelo `all-MiniLM-L6-v2` (unos 90 MB); 
 3. **Tono ajustado con LoRA.** `train_lora.py` entrena un adaptador con `LoraConfig` + `SFTTrainer` sobre `datos_tono.jsonl`. En la app, el adaptador se **simula**: el system prompt adopta la personalidad entrenada y se añaden como few-shot ejemplos del mismo dataset. El interruptor "Adaptador de tono LoRA" permite comparar con y sin él.
 4. **Medición de desempeño.** Cada respuesta muestra el tiempo total en segundos (recuperación + LLM), el tiempo solo del LLM, los tokens totales (prompt y respuesta, tal como los reporta Groq) y la velocidad en tokens por segundo. La barra lateral acumula consultas, tokens y tiempo promedio de la sesión.
 
-## Nota para presentar el proyecto
-
-Groq no sirve pesos LoRA propios en cuentas estándar, hasta donde sé, por eso la inferencia usa el tono simulado. Conviene decirlo abiertamente al jurado: el entrenamiento es real y reproducible con `train_lora.py`, y el adaptador resultante se puede cargar con `peft` si más adelante sirves el modelo base por tu cuenta (por ejemplo con `transformers` o vLLM).
-
-## Ideas para mejorar el resultado
-
-- `all-MiniLM-L6-v2` está optimizado para inglés. Para mejor recuperación en español, cambia `EMBED_MODEL` en `app.py` por `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`.
-- Sustituye el contenido de `conocimiento.txt` por el reglamento real; respeta el formato `## Categoría` / `### Título`.
-- Amplía `datos_tono.jsonl` antes de entrenar: con 6 ejemplos por tono solo sirve como demostración.
 
 > La base de conocimiento incluida es ficticia (fechas, cuotas y reglas inventadas para el hackathon).

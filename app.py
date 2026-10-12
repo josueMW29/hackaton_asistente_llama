@@ -1,13 +1,3 @@
-"""
-Llama Académico: asistente universitario para alumnos de la UTSLRC.
-
-Pipeline completo:
-  1. RAG      -> embeddings (all-MiniLM-L6-v2) + similitud coseno sobre conocimiento.txt
-  2. Tono     -> personalidad "ajustada con LoRA" (simulada con system prompt + few-shot
-                 tomados del mismo dataset que usa train_lora.py con trl.SFTTrainer)
-  3. LLM      -> Groq API (openai/gpt-oss-20b o familia Llama)
-  4. Métricas -> tiempo de respuesta (s) y tokens consumidos por consulta
-"""
 
 from __future__ import annotations
 

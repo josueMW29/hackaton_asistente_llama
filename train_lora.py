@@ -1,18 +1,4 @@
-"""
-Fine-tuning LoRA del tono de Llama Académico con trl.SFTTrainer (opcional).
 
-Entrena un adaptador pequeño con datos_tono.jsonl para que un modelo base responda como
-"coordinador formal" o "compañero amigable". Requiere GPU para ser cómodo:
-
-    pip install -r requirements-train.txt
-    python train_lora.py --tone formal
-    python train_lora.py --tone amigable --epochs 5
-
-Resultado: ./adapters/llama-academico-<tono>/ con los pesos LoRA y training_log.json.
-
-Nota: el dataset de ejemplo es mínimo (6 pares por tono). Para un resultado real amplíalo a
-decenas o cientos de ejemplos.
-"""
 
 from __future__ import annotations
 
